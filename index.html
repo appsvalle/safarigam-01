@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Safarigam - 1000 African Species Educational Wildlife Adventure Game. Explore Africa's extraordinary biodiversity!" />
+    <meta name="keywords" content="Africa, wildlife, safari, education, game, animals, biodiversity, conservation" />
+    <meta name="author" content="Safarigam.com" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Safarigam - 1000 African Species Adventure" />
+    <meta property="og:description" content="Explore Africa's extraordinary biodiversity with 1000 species across mammals, birds, reptiles, amphibians, fish, and invertebrates." />
+    <meta property="og:image" content="/og-image.png" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Safarigam - 1000 African Species Adventure" />
+    <meta name="twitter:description" content="Explore Africa's extraordinary biodiversity with 1000 species!" />
+    
+    <title>Safarigam | 1000 African Species Adventure</title>
+    
+    <!-- Preload fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito:wght@400;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Nunito', sans-serif;
+        background: linear-gradient(135deg, #FFFAF5 0%, #FFF5E6 50%, #FFFAF5 100%);
+        min-height: 100vh;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Loading state */
+      .loading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        font-family: 'Amatic SC', cursive;
+        color: #1B4D3E;
+      }
+      .loading h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      .loading p {
+        font-family: 'Nunito', sans-serif;
+        color: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="loading">
+        <h1>🌍 SAFARIGAM 🦁</h1>
+        <p>Loading your adventure...</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
